@@ -1,0 +1,39 @@
+.left-column,
+.right-column {
+  width: 50%;
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.pay-button {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue color for pay button */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
